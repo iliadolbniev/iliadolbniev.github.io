@@ -1,0 +1,191 @@
+@font-face {
+  font-family: yoo_fom;
+  src: url(https://iliadolbniev.github.io/Sneaker.ttf
+);
+} 
+
+            @font-face {
+  font-family: Jumbo_shoes_font;
+  src: url(https://iliadolbniev.github.io/Jumbo_shoes_fontGX.ttf
+); 
+}
+
+@keyframes shoe { 
+  0% {font-variation-settings: "wght" 0;}
+  50% {font-variation-settings: "wght" 100;}
+  100% {font-variation-settings: "wght" 0;}
+}
+@keyframes snkr {
+                0% {
+                  font-size: 350pt;
+                   font-variation-settings: "wght" 0;
+                }
+                15% {
+                  font-size: 450pt;
+                   font-variation-settings: "wght" 0;  
+              }
+                
+                25% {
+                  font-size: 400pt;
+                   font-variation-settings: "wght" 0;  
+              }    
+                
+                40% {
+                  font-size: 500pt;
+                   font-variation-settings: "wght" 100;  
+              }
+                
+                60% {
+                  font-size: 400pt;
+                   font-variation-settings: "wght" 0;  
+              }
+  
+                80% {
+                  font-size: 400pt;
+                   font-variation-settings: "wght" 0;  
+              }
+
+  
+                100% {
+                  font-size: 400pt;
+                   font-variation-settings: "wght" 0;   
+              }
+            }
+            
+            body {
+                margin: 0;
+            }
+        /*
+            <meta charset="utf-8">
+        <link rel="stylesheet" href="Style.css">
+        */    
+            
+            p1:hover {
+                animation: 2s infinite snkr;
+            }
+            p2:hover {
+                animation: 2s infinite snkr;
+            }
+            p3:hover {
+                animation: 2s infinite snkr;
+            }
+            p4:hover {
+                animation: 2s infinite snkr;
+            }
+            
+            p5 {
+                animation: 2s infinite shoe;
+            }
+          .grid-container {
+              display: grid;  
+              grid-template-columns: 50% 50%;
+              grid-template-rows: ;
+              grid-template-areas: left right;     
+            }
+            
+            .text {
+                grid-area: right;
+                background-color: #4ECECB;
+            }
+            
+            .squaresgrid {
+            display: grid;
+            font-family: yoo_fom;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            /*padding: 1em;*/
+            align-content: center;
+            text-align: center;
+            }
+
+.sneaker:nth-of-type(1) {
+  
+  
+}
+        .sneaker {
+            font-size: 350pt;
+            line-height: 1px;
+            height: 477px;
+            width: 477px;
+            margin-top: 0;
+            padding-top: 0;
+            align-content: center; 
+            
+        }
+        
+            .squaresgrid div:hover {
+                background-color: #4ECECB;
+            }
+        
+        .jordan {
+                background-color: #7E1889;
+                color: #4ECECB;
+            }    
+            
+        .nb {
+                background-color: #F98064;
+                color: #7E1889;
+            } 
+        .vans {
+                background-color: #FCD930;
+                color: #EF521B;
+            }
+        .adidas {
+                background-color: #225B7A;
+                color: #FF85D1;
+            }
+        .SHOE {
+                background-color: #4ECECB;
+                padding: 1em;
+                font-family: Jumbo_shoes_font;
+                text-align: center;
+                font-size: 140pt;
+                line-height: 3;
+            }
+
+            p5:hover {
+                animation: 2s infinite shoe;
+                color: white;
+            } 
+            
+ /*JORDAN*/.sneaker a1:hover {color: #fff;}    
+            
+            .sneaker a1:default {color: #4ECECB;}
+            
+            a1 {color: #4ECECB; 
+               text-decoration: none;}
+
+ /*NB*/.sneaker a2:hover {color: #fff;}    
+            
+            .sneaker a2:default {color: #4ECECB;}
+            
+            a2 {color: #7E1889; 
+               text-decoration: none;}
+
+ /*VANS*/.sneaker a3:hover {color: #fff;}    
+            
+            .sneaker a3:default {color: #4ECECB;}
+            
+            a3 {color: #EF521B; 
+               text-decoration: none;}
+
+ /*ADIDAS*/.sneaker a4:hover {color: #fff;}    
+            
+            .sneaker a4:default {color: #4ECECB;}
+            
+            a4 {color: #FF85D1; 
+               text-decoration: none;}
+        
+a5 {
+  text-align: center;
+  font-family: Futura;
+  font-size: 24pt;
+  line-height: 36pt;
+}
+
+.instagram {
+  text-align: center;
+  color: #000;
+  background-color: #FF91CF;
+  
+}
