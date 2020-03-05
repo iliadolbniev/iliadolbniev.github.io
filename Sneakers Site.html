@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sneaker Site </title>
+        
+        <style>
+        
+            .grid {
+            display: grid;
+            grid-template-columns: 25% 25% 50%;
+            grid-template-rows: 50% 50%;
+            grid-template-areas: 
+                "s1 s2 shoe"
+                "s3 s4 shoe";
+            font-family: yoo_fom; 
+            }
+
+        .grid > div{
+            padding: 1em;
+        }
+
+
+        .sneaker {
+            font-size: 100pt;
+            
+        }
+
+        .jordan {
+                background-color: #7E1889;
+            }
+        .nb {
+                background-color: #F98064;
+            } 
+        .vans {
+                background-color: #FCD930;
+            }
+        .adidas {
+                background-color: #225B7A;
+            }
+        
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Style.css">
+        </style>    
+    
+    </head>
+    <body>
+    
+        <div class="grid"> 
+            <div class="sneaker jordan"> D </div>
+            <div class="sneaker nb"> F </div>
+            <div class="sneaker vans"> G </div>
+            <div class="sneaker adidas"> R </div>
+           
+            </div>
+    </body>
+
+</html>
