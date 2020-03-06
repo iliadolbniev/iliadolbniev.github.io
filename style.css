@@ -6,8 +6,8 @@
 
 
 @font-face {
-  font-family: Futura Bold Consensed BT;
-  src: url(https://iliadolbniev.github.io/Futura Bold font.ttf
+  font-family: League Spartan Bold;
+  src: url(https://iliadolbniev.github.io/LeagueSpartan-Bold.otf
 ); 
 }
 
@@ -28,27 +28,27 @@
                    font-variation-settings: "wght" 0;
                 }
                 15% {
-                  font-size: 450pt;
+                  font-size: 35vw;
                    font-variation-settings: "wght" 0;  
               }
                 
                 25% {
-                  font-size: 400pt;
+                  font-size: 30vw;
                    font-variation-settings: "wght" 0;  
               }    
                 
                 40% {
-                  font-size: 500pt;
+                  font-size: 40vw;
                    font-variation-settings: "wght" 100;  
               }
                 
                 60% {
-                  font-size: 400pt;
+                  font-size: 30vw;
                    font-variation-settings: "wght" 0;  
               }
   
                 80% {
-                  font-size: 400pt;
+                  font-size: 30vw;
                    font-variation-settings: "wght" 0;  
               }
 
@@ -139,10 +139,11 @@ a:hover {
 
 .instagram {
   text-align: center;
-  color: #000;
+  color: #232323;
   background-color: #FF91CF;
   text-align: center;
-  font-family: Futura;
-  font-size: 24pt;
-  line-height: 36pt;
+  font-family:  League Spartan Bold;
+  font-size: 18pt;
+  line-height: 45pt;
 }
+
