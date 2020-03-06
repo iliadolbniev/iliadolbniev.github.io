@@ -106,7 +106,7 @@ a:hover {
 
 /*.jordan, .jordan a:link, .jordan a:visited {*/
 .jordan {
-
+  font-variation-settings: "wght" 0;
   background-color: #7E1889;
   color: #4ECECB;
   
