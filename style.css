@@ -1,8 +1,8 @@
 @font-face {
-  font-family: yoo_fom;
-  src: url(https://iliadolbniev.github.io/Sneaker.ttf
-);
-} 
+  font-family: Futura Bold Consensed BT;
+  src: url(https://iliadolbniev.github.io/Futura Bold font.ttf
+); 
+}
 
 @font-face {
   font-family: Jumbo_shoes_font;
@@ -84,8 +84,8 @@
 .sneaker {
   font-family: yoo_fom;
   font-size: 25vw;
-  height: 477px;
-  width: 477px;
+  height: 25vw;
+  width: 25vw;
   text-align: center;
   line-height: 50%;
 }
@@ -137,8 +137,8 @@ a:hover {
   text-align: center;
   color: #000;
   background-color: #FF91CF;
-   text-align: center;
-  font-family: Futura Bold;
+  text-align: center;
+  font-family: Futura;
   font-size: 24pt;
   line-height: 36pt;
 }
