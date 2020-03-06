@@ -28,33 +28,33 @@
                    font-variation-settings: "wght" 0;
                 }
                 15% {
-                  font-size: 450pt;
+                  font-size: 380pt;
                    font-variation-settings: "wght" 0;  
               }
                 
                 25% {
-                  font-size: 400pt;
+                  font-size: 300pt;
                    font-variation-settings: "wght" 0;  
               }    
                 
                 40% {
-                  font-size: 450pt;
+                  font-size: 420pt;
                    font-variation-settings: "wght" 100;  
               }
                 
                 60% {
-                  font-size: 400pt;
+                  font-size: 300pt;
                    font-variation-settings: "wght" 0;  
               }
   
                 80% {
-                  font-size: 400pt;
+                  font-size: 300pt;
                    font-variation-settings: "wght" 0;  
               }
 
   
                 100% {
-                  font-size: 30vw;
+                  font-size: 25vw;
                    font-variation-settings: "wght" 0;   
               }
             }
