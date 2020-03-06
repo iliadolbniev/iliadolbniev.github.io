@@ -38,7 +38,7 @@
               }    
                 
                 40% {
-                  font-size: 500pt;
+                  font-size: 450pt;
                    font-variation-settings: "wght" 100;  
               }
                 
@@ -144,5 +144,5 @@ a:hover {
   text-align: center;
   font-family: Futura;
   font-size: 16pt;
-  line-height: 50pt;
+  line-height: 45pt;
 }
