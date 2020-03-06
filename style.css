@@ -28,33 +28,33 @@
                    font-variation-settings: "wght" 0;
                 }
                 15% {
-                  font-size: 380pt;
+                  font-size: 450pt;
                    font-variation-settings: "wght" 0;  
               }
                 
                 25% {
-                  font-size: 300pt;
+                  font-size: 400pt;
                    font-variation-settings: "wght" 0;  
               }    
                 
                 40% {
-                  font-size: 420pt;
+                  font-size: 500pt;
                    font-variation-settings: "wght" 100;  
               }
                 
                 60% {
-                  font-size: 300pt;
+                  font-size: 400pt;
                    font-variation-settings: "wght" 0;  
               }
   
                 80% {
-                  font-size: 300pt;
+                  font-size: 400pt;
                    font-variation-settings: "wght" 0;  
               }
 
   
                 100% {
-                  font-size: 25vw;
+                  font-size: 30vw;
                    font-variation-settings: "wght" 0;   
               }
             }
@@ -143,6 +143,6 @@ a:hover {
   background-color: #FF91CF;
   text-align: center;
   font-family: Futura;
-  font-size: 16pt;
-  line-height: 45pt;
+  font-size: 24pt;
+  line-height: 36pt;
 }
